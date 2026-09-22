@@ -1,11 +1,47 @@
 /* Carte de projet : coins arrondis, ombre légère, s'élève au survol */
 .project-card {
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* L'image ne dépasse jamais la largeur de la carte */
+.project-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Espace textuel de la carte : padding uniforme via les variables --space-* */
+.project-title {
+  padding-inline: var(--space-md);
+  padding-top: var(--space-md);
+}
+
+.project-description {
+  padding-inline: var(--space-md);
+}
+
+.project-link {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-inline-end: var(--space-md);
+  margin-bottom: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.project-link:hover {
+  color: #fff;
+  background-color: var(--color-primary);
 }

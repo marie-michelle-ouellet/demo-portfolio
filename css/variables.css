@@ -1,0 +1,9 @@
+:root {
+  --font-primary: 'Roboto', sans-serif;
+  --color-primary: #2563eb;
+
+  /* Échelle d'espacements en rem pour uniformiser les paddings/margins */
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+}

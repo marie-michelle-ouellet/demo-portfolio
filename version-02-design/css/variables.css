@@ -1,12 +1,7 @@
 :root {
   --font-primary: 'Source Sans 3', sans-serif;
   --font-heading: 'Julius Sans One', sans-serif;
-  --color-background: #0e0e0e;
-  --color-surface: #151515;
-  --color-text: #f5f4f0;
-  --color-muted: #7c7c7c;
-  --color-accent: #d63f3f;
-  --color-rule: rgba(245, 244, 240, 0.08);
+
   --space-sm: 0.5rem;
   --space-md: 1rem;
   --space-lg: 2rem;

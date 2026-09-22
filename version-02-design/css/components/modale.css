@@ -1,0 +1,22 @@
+.project-modal {
+	width: 80vw;
+	height: 80vh;
+	margin: auto;
+	border: 1px solid var(--color-accent);
+	padding: 2.5rem;
+	background: var(--color-surface);
+	color: var(--color-text);
+}
+
+.project-modal::backdrop { background: rgba(0, 0, 0, 0.78); }
+.project-modal__close { position: absolute; top: 0.8rem; right: 1rem; color: var(--color-muted); font-size: 1.5rem; }
+.project-modal__close:hover { color: var(--color-text); }
+.project-modal h2 { margin: 0.8rem 0; font-size: 1.5rem; letter-spacing: 0.08em; }
+.project-modal__description { color: var(--color-muted); font-size: 0.9rem; }
+
+@media (max-width: 600px) {
+	.project-modal {
+		width: 95vw;
+		height: 95vh;
+	}
+}

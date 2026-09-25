@@ -1,0 +1,28 @@
+/* ========================================
+   Layout : disposition générale des pages
+   ======================================== */
+
+.container {
+  width: min(100% - 2 * var(--space-l), var(--max-width));
+  margin-inline: auto;
+}
+
+main {
+  padding-block: var(--space-xl);
+}
+
+/* Section des projets (index.html) */
+.projects__title {
+  font-size: var(--font-size-title);
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-l);
+}
+
+/* Message d'erreur ou de chargement */
+.message {
+  color: var(--color-text-muted);
+}

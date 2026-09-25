@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projet | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components/navigation.css">
+  <link rel="stylesheet" href="css/components/project-detail.css">
+
+  <!-- Le MÊME data.js que index.html, puis le script propre à cette page -->
+  <script src="js/data.js" defer></script>
+  <script src="js/project.js" defer></script>
+</head>
+<body>
+
+  <header class="navigation">
+    <nav class="navigation__inner container">
+      <a class="navigation__logo" href="index.html">Prénom Nom<span>.</span></a>
+      <a class="navigation__link" href="index.html#projets">Projets</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Vide au départ : rempli par js/project.js selon l'id dans l'adresse -->
+    <article class="project">
+      <p class="message">Chargement du projet...</p>
+    </article>
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+/* ========================================
+   Composant : modale (option « one-pager avec modale »)
+   Utilise l'élément natif <dialog>
+   ======================================== */
+
+.modal {
+  width: min(90vw, 720px);
+  padding: 0;
+  border: none;
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+/* Le fond assombri derrière la modale */
+.modal::backdrop {
+  background: rgb(0 0 0 / 0.75);
+}
+
+.modal__content {
+  padding: var(--space-l);
+}
+
+.modal__image {
+  margin-bottom: var(--space-m);
+  border-radius: var(--radius);
+}
+
+.modal__meta {
+  color: var(--color-accent);
+  font-size: var(--font-size-small);
+  text-transform: uppercase;
+}
+
+.modal__close {
+  position: absolute;
+  top: var(--space-s);
+  right: var(--space-s);
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 50%;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-size: 1.25rem;
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "cafe-du-coin",
+    "title": "Café du coin",
+    "description": "Identité visuelle et site web pour un café de quartier : logo, palette, menus imprimés et site vitrine responsive.",
+    "category": "Design web",
+    "year": "2025",
+    "image": "assets/images/cafe-du-coin.svg",
+    "link": "https://example.com",
+    "gallery": [
+      "assets/images/cafe-du-coin-2.svg",
+      "assets/images/cafe-du-coin-3.svg"
+    ]
+  },
+  {
+    "id": "biome",
+    "title": "Biome",
+    "description": "Modélisation 3D d'un écosystème miniature, du croquis au rendu final dans Blender.",
+    "category": "3D",
+    "year": "2025",
+    "image": "assets/images/biome.svg"
+  },
+  {
+    "id": "echo",
+    "title": "Écho",
+    "description": "Installation interactive sonore : les mouvements du public génèrent des visuels projetés en temps réel.",
+    "category": "Interactivité",
+    "year": "2024",
+    "image": "assets/images/echo.svg",
+    "link": "https://example.com"
+  },
+  {
+    "id": "mosaique",
+    "title": "Mosaïque",
+    "description": "Série d'affiches typographiques générées par code, imprimées en sérigraphie.",
+    "category": "Design graphique",
+    "year": "2024",
+    "image": "assets/images/mosaique.svg"
+  }
+]

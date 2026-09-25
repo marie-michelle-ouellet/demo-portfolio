@@ -1,0 +1,29 @@
+/* ========================================
+   Variables CSS du projet
+   À lier en PREMIER dans le <head>
+   ======================================== */
+
+:root {
+  /* Couleurs */
+  --color-bg: #0a0a0a;
+  --color-surface: #161616;
+  --color-text: #ffffff;
+  --color-text-muted: #a3a3a3;
+  --color-accent: #ff2b47;
+
+  /* Typographie */
+  --font-main: 'Poppins', 'Segoe UI', sans-serif;
+  --font-size-small: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-title: clamp(2rem, 5vw, 3.5rem);
+
+  /* Espacements */
+  --space-s: 0.5rem;
+  --space-m: 1rem;
+  --space-l: 2rem;
+  --space-xl: 4rem;
+
+  /* Divers */
+  --radius: 8px;
+  --max-width: 1200px;
+}

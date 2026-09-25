@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Démo chargement de données</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+
+  <!-- CSS : variables.css TOUJOURS en premier -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components/navigation.css">
+  <link rel="stylesheet" href="css/components/project-card.css">
+  <link rel="stylesheet" href="css/components/modal.css">
+
+  <!-- JS : defer = exécuté après la lecture du HTML, dans cet ordre -->
+  <script src="js/data.js" defer></script>
+  <script src="js/components/project-card.js" defer></script>
+  <script src="js/components/modal.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <!-- ===== Composant : navigation ===== -->
+  <header class="navigation">
+    <nav class="navigation__inner container">
+      <a class="navigation__logo" href="index.html">Prénom Nom<span>.</span></a>
+      <a class="navigation__link" href="#projets">Projets</a>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <!-- ===== Section des projets ===== -->
+    <section class="projects" id="projets">
+      <h1 class="projects__title">Projets</h1>
+
+      <!-- Vide au départ : les cartes sont générées par js/main.js -->
+      <div class="projects__grid">
+        <p class="message">Chargement des projets...</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Composant : modale (une seule, réutilisée) ===== -->
+  <dialog class="modal">
+    <button class="modal__close" aria-label="Fermer">×</button>
+    <div class="modal__content">
+      <!-- rempli par js/components/modal.js -->
+    </div>
+  </dialog>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+/* ========================================
+   Composant : détail d'un projet (option « multipages », project.html)
+   Le HTML de ce composant est généré par js/project.js
+   ======================================== */
+
+.project__back {
+  display: inline-block;
+  margin-bottom: var(--space-l);
+}
+
+.project__title {
+  font-size: var(--font-size-title);
+}
+
+.project__meta {
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.project__image {
+  width: 100%;
+  margin-block: var(--space-l);
+  border-radius: var(--radius);
+}
+
+.project__description {
+  max-width: 65ch;
+  color: var(--color-text-muted);
+}
+
+.project__gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space-m);
+  margin-top: var(--space-l);
+}
+
+.project__gallery img {
+  border-radius: var(--radius);
+}
